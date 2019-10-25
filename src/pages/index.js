@@ -10,7 +10,19 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Hello Team</h1>
     <p>This is a Gatsby Site on Netlify</p>
-    <p>Get Ready!</p>
+    <h2>The Tools</h2>
+    <ul>
+      <li>iTerm</li>
+      <li>Chrome</li>
+      <li>VS Code</li>
+      <li>Notion</li>
+      <li>CLIs</li>
+      <ul>
+        <li>hub</li>
+        <li>netlify</li>
+        <li>gatsby-cli</li>
+      </ul>
+    </ul>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
