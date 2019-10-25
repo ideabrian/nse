@@ -12,7 +12,10 @@ const SecondPage = () => (
     <h3>What are you 5 Favorite and Least Favorite Things to Do</h3>
     <p>
       From:{" "}
-      <a href="https://gist.githubusercontent.com/fool/b0f254ff8c72a5765b6a9138249789d6/raw/250cf760aebb34f6ea32f86fd5361abb706fed9a/gistfile1.md">
+      <a
+        href="https://gist.githubusercontent.com/fool/b0f254ff8c72a5765b6a9138249789d6/raw/250cf760aebb34f6ea32f86fd5361abb706fed9a/gistfile1.md"
+        target="_blank"
+      >
         List of Tasks
       </a>
     </p>
