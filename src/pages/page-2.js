@@ -104,7 +104,7 @@ const SecondPage = () => (
       Q. What did you think of our service during the time you used it?
     </p>
     <p className="answer">
-      I have put up many sites on Netlify. I could still use more 'smarts'. A
+      A. I have put up many sites on Netlify. I could still use more 'smarts'. A
       little checkbox asking me what kind of tools I'm using would go along way
       in suggesting my deploy settings.
     </p>
@@ -152,7 +152,10 @@ const SecondPage = () => (
       especially important these days when so much work is being done by the
       client / browser using JavaScript. Without SSL, it's be much easier to
       implement some man-in-the-middle attacks and siphon off sensitive
-      information.
+      information.{" "}
+      <a href="https://docs.netlify.com/domains-https/https-ssl/#certificate-service-types">
+        Netlify Docs include great HTTPS info
+      </a>
     </p>
     <h4>DNS Configuration</h4>
     <p className="question">
