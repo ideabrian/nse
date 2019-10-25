@@ -66,6 +66,28 @@ const SecondPage = () => (
       person does not. I love it when the light bulb goes and they have learned
       something that makes their life better.
     </p>
+    <p class="question">
+      Q. What did you think of our service during the time you used it?
+    </p>
+    <p class="answer">
+      I have put up many sites on Netlify. I could still use more 'smarts'. A
+      little checkbox asking me what kind of tools I'm using would go along way
+      in suggesting my deploy settings.
+    </p>
+    <p class="question">
+      Q. How did you make the site and why did you choose the tools you did?
+    </p>
+    <p class="answer">
+      I have a consulting client who's setting up a new Gatsby / Sanity blog and
+      so I need more practice with Gatsby. Of course, being a generalist, I only
+      ever feel like I'm practicing the use of my tools, and I always welcome
+      learning something new.
+      <br></br>
+      Gotch: Last night, I was putting up an app made with create-react app -
+      where the build folder is 'build' -- now, I'm using Gastby, where it's
+      'public' -- I entered the wrong details at first. It took a few minutes to
+      troubleshoot.
+    </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
