@@ -21,7 +21,7 @@
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/ 
 [[redirects]]
   from = "/netlify/anything"
-  to = "https://google.com/search?q=anything"
+  to = "https://www.google.com/search?q=anything"
   status = 200
   force = true
   headers = {X-From = "Netlify"}

@@ -9,7 +9,6 @@ const SecondPage = () => (
     <SEO title="Questions" />
     <h1>NSE Questions</h1>
     <p>Some fun questions to answer:</p>
-
     <h3>What are you 5 Favorite and Least Favorite Things to Do</h3>
     <p>
       From:{" "}
@@ -93,7 +92,6 @@ const SecondPage = () => (
         </li>
       </ul>
     </p>
-
     <h4>Providing Technical Support</h4>
     <p className="question">
       Q. What is your favorite thing about providing technical support?
@@ -130,6 +128,13 @@ const SecondPage = () => (
       took a few minutes to troubleshoot. I dragged the 'public' folder onto the
       upload box on netlify to manually deploy -- and realized I wasn't dragging
       the 'build' folder.
+    </p>
+    <p>
+      <strong>Gotcha #2:</strong> When using the netlify init on the CLI - it
+      asks if you want to create a netlify.toml file. However, the defaults
+      weren't set to Gatsby - so those were over-riding the settings I
+      configured in the web UI. Fixed. Now deploying / building properly via
+      github webhooks.
     </p>
     <h4>Good Docs</h4>
     <p className="question">
@@ -178,7 +183,6 @@ const SecondPage = () => (
         </ol>
       </ul>
     </p>
-
     <h4>Site Won't Build</h4>
     <p className="question">
       A customer writes in saying their "site won't build":
@@ -206,6 +210,15 @@ const SecondPage = () => (
       can work together to make your Netlify experience as enjoyable as
       possible.
     </p>
+    <h4>BONUS #1</h4>
+    <p>
+      Redirect: <a href="/netlify/anything/">/netlify/anything</a>
+    </p>
+    <h4>BONUS #2</h4>
+    <p>
+      <Link to="/suggestions/">Suggestions</Link>
+    </p>
+
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
