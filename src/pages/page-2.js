@@ -69,15 +69,12 @@ const SecondPage = () => (
       </li>
     </ul>
     <p>
-      <strong>Thinkig:</strong>
-      There weren't any on the list that seemed unfavorable or interesting. I
+      <strong>Thinking: </strong>
+      There weren't any on the list that seemed unfavorable or un-interesting. I
       have done and would do them all if helpful to the mission. The five above
       are my least favorite because:
       <ul>
-        <li>
-          Twitter should redirect people to other channels - doesn't require an
-          engineer.
-        </li>
+        <li>Twitter is too fun and distracting.</li>
         <li>
           Working with prospective customers maybe fall more into
           sales-engineering
