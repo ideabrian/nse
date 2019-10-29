@@ -192,7 +192,11 @@ const SecondPage = () => (
     </p>
     <p className="answer">
       Dear customer, I'm glad you're reaching out, we'll definitely help you get
-      your site building. Thanks for your patience in the process. A little
+      your site building. Thanks for your patience in the process. The very{" "}
+      <a href="https://www.netlify.com/blog/2016/10/18/how-our-build-bots-build-sites/">
+        first thing you should read about builds
+      </a>
+      , written by our tech support lead about builds is here. A little
       overview: The 'build' process is one of getting lots of
       [code]puzzle-pieces fitting together. Think of a puzzle with small pieces.
       Before you deploy to Netlify, you should ensure your site is working on
