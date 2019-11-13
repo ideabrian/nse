@@ -16,8 +16,8 @@ const IndexPage = () => (
     </p>
     <p>
       It requires a little thinking, some tenacity, and a willingness to follow
-      patterns -- as in "anwer the questions please!" -- all good for a business
-      that runs on systems.
+      patterns -- as in "answer the questions please!" -- all good for a
+      business that runs on systems.
     </p>
     <h4>How could the test or the posting be better?</h4>
     <p>
